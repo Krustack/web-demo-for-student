@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    width: 100%;
+    background-color: blueviolet;
+    box-sizing: border-box;
+    height: 50px;
+  }
+  .logo {
+    float:left;
+    color: white;
+    padding-left:10px;
+  }
+  .menu {
+    float: right;
+    color: white;
+    list-style-type: none;
+    padding-right:15px;
+  }
+  .menu > li{
+    display: inline-block;
+    padding: 0 10px ;
+  }
+  .menu > li > a {
+    color:#fff;
+    text-decoration: none;
+  }
+  a.active{
+    border-bottom: 3px solid #fff;
+    padding-bottom: 3px;
+  }
